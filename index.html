@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>hallo</h1>
+    <header>
+        <h1> Registratie fomrulier</h1>
+    </header>
+
+<main><section class="reg-form">
+    <form action="./submit.html">
+<fieldset>
+    <legend> Username  </legend>
+    <input type="text" required>
+</fieldset>
+<fieldset>
+    <legend> Password</legend>
+    <input type="password" required minlength="8" maxlength="20">
+</fieldset>
+<fieldset>
+    <legend> Email</legend>
+    <input type="email" required>
+</fieldset>
+<fieldset>
+    <legend> leeftijd</legend>
+    <input type="number" min="16" max="99"> 
+</fieldset>
+<fieldset>
+        <legend>Kleur</legend>
+        <input type="color">
+</fieldset>
+<div>
+<input type="submit" value="Submit me!">
+</div>
+</form>
+</section>
+
+
+
+</main>
+    <Section class="reg-form2">
+    <div>
+    <h2>Username</h2>
+    <input type="text" required>
+    </div>
+    <div>
+        <h2>password</h2>
+        <input type="password" required minlength="8" maxlength="20">
+        </div>
+    <div>
+        <h2>Email</h2>
+        <input type="email" required>
+        </div>
+        <div>
+            <h2>Leeftijd</h2>
+            <input type="number" min="16" max="99"> 
+            </div>  
+            <div>
+                <h2>Kleur</h2>
+                <input type="color"> 
+                </div>
+
+</Section>
 </body>
 </html>
