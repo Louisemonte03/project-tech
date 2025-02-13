@@ -2,6 +2,10 @@ const express = require ('express')
 const app = express ()
 
 app 
+.use('/static', express.static('static'))
+
+
+app 
 .get('/', onhome)
 .get ("/about", about)
 .listen (8000)
