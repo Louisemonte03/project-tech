@@ -1,0 +1,22 @@
+{
+  "name": "project-tech",
+  "version": "1.0.0",
+  "description": "server maken ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louisemonte03/project-tech.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Louisemonte03/project-tech/issues"
+  },
+  "homepage": "https://github.com/Louisemonte03/project-tech#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
